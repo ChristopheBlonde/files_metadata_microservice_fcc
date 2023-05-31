@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/reset.css" />
+    <link rel="stylesheet" href="../assets//styles.css" />
+    <script type="application/javascript" src="../assets/script.js"></script>
+    <title>File Metadata Microservice</title>
+  </head>
+  <body>
+    <h1>File Metadata Microservice</h1>
+    <div class="form-container">
+      <form id="file-form" class="file-form">
+        <input type="file" name="upfile" class="upfile" id="upfile" />
+        <button type="submit" class="btn-submit">Upload</button>
+      </form>
+    </div>
+    <div id="response-container" class="response-container hidden">
+      <h2>Analyse Results</h2>
+      <div class="response">Name :<span id="name"></span></div>
+      <div class="response">Size :<span id="size"></span></div>
+      <div class="response">Type :<span id="type"></span></div>
+    </div>
+  </body>
+</html>

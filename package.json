@@ -1,0 +1,19 @@
+{
+  "name": "file_metadata_microservice",
+  "version": "1.0.0",
+  "description": "file analysis metadata",
+  "main": "index.js",
+  "author": "Blonde Christophe",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "myStart": "npx nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.1",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1"
+  }
+}
